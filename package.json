@@ -2,8 +2,8 @@
   "name": "food-market",
   "version": "1.0.0",
   "scripts": {
-    "start": "parcel index.html--port $PORT",
-    "build": "parcel build index.html",
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir build",
     "test": "jest"
   },
   "keywords": [],
